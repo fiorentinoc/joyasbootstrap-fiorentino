@@ -1,0 +1,44 @@
+/* CSS RESET ----------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*font-family: 'Saira', sans-serif;*/
+    font-family: 'Dosis', sans-serif;
+}
+:link, :visited {
+    text-decoration: none;
+    color: antiquewhite;
+}
+body {
+    background-color: rgb(33, 37, 41);
+}
+.bg-bl {
+    background-color: black;
+}
+.navbar-toggler-icon{
+    background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e);
+}
+/* LOGO -------------------------*/
+.logo {
+    padding-top: 35px;
+    padding-left: 30px;
+}
+.logo__title {
+    font-family: 'Ballet', cursive;
+    font-size: 50px;
+    color: antiquewhite;
+    text-align: center;
+    transition: all 2s;
+}
+.logo__title:hover {
+    font-size: 90px;
+    color: goldenrod;
+}
+.logo__text {
+    color: antiquewhite;
+    text-align: center;
+    position: relative;
+    top: -35px;
+    right: -50px;
+}
