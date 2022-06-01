@@ -15,8 +15,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!-- Estilos Propios -->
     <link rel="stylesheet" href="./css/style.css">
-    <!-- Fontawesome -->
-    <script src="https://kit.fontawesome.com/b030aa1cf1.js" crossorigin="anonymous"></script>
+        <!-- Favicons -->
+    <link rel="apple-touch-icon" href="/docs/5.2/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="manifest" href="/docs/5.2/assets/img/favicons/manifest.json">
+    <link rel="mask-icon" href="/docs/5.2/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+    <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon.ico">
+    <meta name="theme-color" content="#712cf9">
+    
 </head>
 <body class="container bg-dark text-white">
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
@@ -34,7 +41,7 @@
       
     <div class="container bg-dark text-white">
         <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
-            <nav class="navbar bg-dark fixed-top">
+            <!-- <nav class="navbar bg-dark fixed-top">
                 <div class="container-fluid">
                     <div class="logo">
                         <h1 class="logo__title animate__heartBeat">Fiorentino</h1>
@@ -49,11 +56,10 @@
                         </div>
                         <div class="offcanvas-body bg-dark">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                            <!-- <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Link</a></li> -->
+                           
                             <li><a href="index.html" class="nav-link px-2 text-white">Inicio</a></li>
-                            <li><a href="#" class="nav-link px-2 link-secondary">Historia</a></li>
-                            <li><a href="store.html" class="nav-link px-2 text-white">Store</a></li>
+                            <li><a href="about.html" class="nav-link px-2 text-white">Historia</a></li>
+                            <li><a href="#" class="nav-link px-2 link-secondary">Store</a></li>
                             <li><a href="visitanos.html" class="nav-link px-2 text-white">Visítanos</a></li>
                             <li><a href="contact.html" class="nav-link px-2 text-white">Contacto</a></li>
                             <li><a href="blog.html" class="nav-link px-2 text-white">Blog</a></li>
@@ -62,51 +68,44 @@
                     </div>
                 </div>
 
-            </nav>
-            <br>
+            </nav> -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Offcanvas navbar large">
+                <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <div class="logo">
+                        <h1 class="logo__title animate__heartBeat">Fiorentino</h1>
+                        <p class="logo__text">Diseño de Alta Joyería</p>
+                    </div>
+                </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="offcanvas offcanvas-end text-white bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Offcanvas</h5>
+                      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+                        <li class="nav-item"><a href="index.html" class="nav-link px-2 text-white">Inicio</a></li>
+                        <li class="nav-item"><a href="about.html" class="nav-link px-2 text-white">Historia</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link px-2 link-secondary">Store</a></li>
+                        <li class="nav-item"><a href="visitanos.html" class="nav-link px-2 text-white">Visítanos</a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-white">Contacto</a></li>
+                        <li class="nav-item"><a href="blog.html" class="nav-link px-2 text-white">Blog</a></li>
+                      </ul>
+                      
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            
         </header>        
     </div>
     <main>
-        <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Accordion Item #1
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>Esta es nuestra pequeña historia que compartiremos contigo:</strong> <p>It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.</p> 
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  En los Comienzos...
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus possimus, tempore vel labore rem impedit repellat sit! Aperiam fuga facere, voluptates ipsum earum similique sit aliquid tenetur officiis et nostrum eligendi impedit sint possimus nisi deleniti eaque saepe aut. Dolores exercitationem sequi pariatur quos possimus facilis earum a voluptas maiores vitae, veniam dolorum asperiores consequatur sed cumque, harum odio iure quod officia maxime, iusto ut dicta nemo ducimus? Sit minima adipisci atque earum doloribus, porro repellendus dolor suscipit laudantium, eum id molestiae iusto voluptatibus illo voluptates molestias doloremque pariatur facilis qui similique ex ratione ipsum modi? Numquam voluptatum a at.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Hoy somos...
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error beatae exercitationem sunt odio quaerat iure delectus repudiandae consectetur pariatur eveniet cupiditate, commodi nihil. Voluptas praesentium esse dolorum, eveniet dolore adipisci explicabo mollitia magni molestias consectetur odio quos voluptatem nihil laudantium temporibus eos nulla illo maxime optio. Excepturi amet minima veniam repellendus itaque repudiandae ratione placeat, aspernatur voluptatem similique illo sapiente! Laudantium sequi consequatur debitis corporis eius minima perferendis eligendi, consectetur culpa eaque iusto omnis. Veritatis totam hic minima nam placeat quisquam porro. Ipsum velit vero possimus ea recusandae sunt laudantium accusamus vel itaque nesciunt atque, natus obcaecati dolorum, sapiente adipisci dolores architecto est necessitatibus eaque quibusdam. Similique, possimus vel. Aut praesentium ut consequuntur cupiditate dolorum pariatur, nemo minus nesciunt? Rerum aliquam aliquid deserunt facere eum beatae quis nam, assumenda sequi sapiente repellat. Aliquid voluptate ut atque ullam hic. Vel optio illum eius totam sunt recusandae officia omnis cumque alias quis!
-                </div>
-              </div>
-            </div>
-          </div>
+        
     </main>
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top text-white">
         <div class="col-md-4 d-flex align-items-center">
@@ -128,6 +127,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <!-- Script Popper -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <script src="/docs/5.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b030aa1cf1.js" crossorigin="anonymous"></script>
 </body>
 </html>
