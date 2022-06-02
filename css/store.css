@@ -13,3 +13,11 @@
     position: relative;
     top: -2em;
     right: -2.9em;
+}
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+.rs {
+    padding-right: 3em;
+}
