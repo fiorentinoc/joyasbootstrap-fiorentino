@@ -1,0 +1,30 @@
+.logo {
+    $fontsize: 3em;
+    padding-top: 1em;
+    padding-right: 5em;
+
+
+    .brand {
+        
+        font-family: 'Ballet', cursive;
+        font-size: $fontsize;
+        transition: font-size 2s;
+    }
+    .brand-text {
+        color: white;
+        font-size: 0.75em;
+        text-align: center;
+        position: relative;
+        top: -2em;
+        right: -2.9em;
+        transition: font-size 2s
+    }
+    &:hover{
+        .brand{
+            font-size: calc(#{$fontsize} *2);
+        }
+        .brand-text{
+            font-size: calc(#{$fontsize} *0.50);
+        }
+    }
+}
