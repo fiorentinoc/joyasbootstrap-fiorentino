@@ -1,25 +1,413 @@
+@charset "UTF-8";
 body {
   background-color: #212529; }
 
+/* Importacion de módulos */
+/* Aplicando Mapas(1) */
+div.container-lg {
+  background-image: linear-gradient(90deg, #ae8625 0%, rmap-get((colIz: #ae8625, colReflejo: #fffbc6, colDer: #d2ac47), colReflejo) 0%, #d2ac47 94%);
+  animation-name: tino;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.97, 0.17, 0.03, 0.82);
+  animation-duration: 8s;
+  animation-delay: 1s; }
+
+@keyframes tino {
+  1% {
+    background-image: linear-gradient(91deg, #ae8625 0%, #fffbc6 1%, #d2ac47 94%); }
+  2% {
+    background-image: linear-gradient(92deg, #ae8625 0%, #fffbc6 2%, #d2ac47 94%); }
+  3% {
+    background-image: linear-gradient(93deg, #ae8625 0%, #fffbc6 3%, #d2ac47 94%); }
+  4% {
+    background-image: linear-gradient(94deg, #ae8625 0%, #fffbc6 4%, #d2ac47 94%); }
+  5% {
+    background-image: linear-gradient(95deg, #ae8625 0%, #fffbc6 5%, #d2ac47 94%); }
+  6% {
+    background-image: linear-gradient(96deg, #ae8625 0%, #fffbc6 6%, #d2ac47 94%); }
+  7% {
+    background-image: linear-gradient(97deg, #ae8625 0%, #fffbc6 7%, #d2ac47 94%); }
+  8% {
+    background-image: linear-gradient(98deg, #ae8625 0%, #fffbc6 8%, #d2ac47 94%); }
+  9% {
+    background-image: linear-gradient(99deg, #ae8625 0%, #fffbc6 9%, #d2ac47 94%); }
+  10% {
+    background-image: linear-gradient(100deg, #ae8625 0%, #fffbc6 10%, #d2ac47 94%); }
+  11% {
+    background-image: linear-gradient(101deg, #ae8625 0%, #fffbc6 11%, #d2ac47 94%); }
+  12% {
+    background-image: linear-gradient(102deg, #ae8625 0%, #fffbc6 12%, #d2ac47 94%); }
+  13% {
+    background-image: linear-gradient(103deg, #ae8625 0%, #fffbc6 13%, #d2ac47 94%); }
+  14% {
+    background-image: linear-gradient(104deg, #ae8625 0%, #fffbc6 14%, #d2ac47 94%); }
+  15% {
+    background-image: linear-gradient(105deg, #ae8625 0%, #fffbc6 15%, #d2ac47 94%); }
+  16% {
+    background-image: linear-gradient(106deg, #ae8625 0%, #fffbc6 16%, #d2ac47 94%); }
+  17% {
+    background-image: linear-gradient(107deg, #ae8625 0%, #fffbc6 17%, #d2ac47 94%); }
+  18% {
+    background-image: linear-gradient(108deg, #ae8625 0%, #fffbc6 18%, #d2ac47 94%); }
+  19% {
+    background-image: linear-gradient(109deg, #ae8625 0%, #fffbc6 19%, #d2ac47 94%); }
+  20% {
+    background-image: linear-gradient(110deg, #ae8625 0%, #fffbc6 20%, #d2ac47 94%); }
+  21% {
+    background-image: linear-gradient(111deg, #ae8625 0%, #fffbc6 21%, #d2ac47 94%); }
+  22% {
+    background-image: linear-gradient(112deg, #ae8625 0%, #fffbc6 22%, #d2ac47 94%); }
+  23% {
+    background-image: linear-gradient(113deg, #ae8625 0%, #fffbc6 23%, #d2ac47 94%); }
+  24% {
+    background-image: linear-gradient(114deg, #ae8625 0%, #fffbc6 24%, #d2ac47 94%); }
+  25% {
+    background-image: linear-gradient(115deg, #ae8625 0%, #fffbc6 25%, #d2ac47 94%); }
+  26% {
+    background-image: linear-gradient(116deg, #ae8625 0%, #fffbc6 26%, #d2ac47 94%); }
+  27% {
+    background-image: linear-gradient(117deg, #ae8625 0%, #fffbc6 27%, #d2ac47 94%); }
+  28% {
+    background-image: linear-gradient(118deg, #ae8625 0%, #fffbc6 28%, #d2ac47 94%); }
+  29% {
+    background-image: linear-gradient(119deg, #ae8625 0%, #fffbc6 29%, #d2ac47 94%); }
+  30% {
+    background-image: linear-gradient(120deg, #ae8625 0%, #fffbc6 30%, #d2ac47 94%); }
+  31% {
+    background-image: linear-gradient(121deg, #ae8625 0%, #fffbc6 31%, #d2ac47 94%); }
+  32% {
+    background-image: linear-gradient(122deg, #ae8625 0%, #fffbc6 32%, #d2ac47 94%); }
+  33% {
+    background-image: linear-gradient(123deg, #ae8625 0%, #fffbc6 33%, #d2ac47 94%); }
+  34% {
+    background-image: linear-gradient(124deg, #ae8625 0%, #fffbc6 34%, #d2ac47 94%); }
+  35% {
+    background-image: linear-gradient(125deg, #ae8625 0%, #fffbc6 35%, #d2ac47 94%); }
+  36% {
+    background-image: linear-gradient(126deg, #ae8625 0%, #fffbc6 36%, #d2ac47 94%); }
+  37% {
+    background-image: linear-gradient(127deg, #ae8625 0%, #fffbc6 37%, #d2ac47 94%); }
+  38% {
+    background-image: linear-gradient(128deg, #ae8625 0%, #fffbc6 38%, #d2ac47 94%); }
+  39% {
+    background-image: linear-gradient(129deg, #ae8625 0%, #fffbc6 39%, #d2ac47 94%); }
+  40% {
+    background-image: linear-gradient(130deg, #ae8625 0%, #fffbc6 40%, #d2ac47 94%); }
+  41% {
+    background-image: linear-gradient(131deg, #ae8625 0%, #fffbc6 41%, #d2ac47 94%); }
+  42% {
+    background-image: linear-gradient(132deg, #ae8625 0%, #fffbc6 42%, #d2ac47 94%); }
+  43% {
+    background-image: linear-gradient(133deg, #ae8625 0%, #fffbc6 43%, #d2ac47 94%); }
+  44% {
+    background-image: linear-gradient(134deg, #ae8625 0%, #fffbc6 44%, #d2ac47 94%); }
+  45% {
+    background-image: linear-gradient(135deg, #ae8625 0%, #fffbc6 45%, #d2ac47 94%); }
+  46% {
+    background-image: linear-gradient(136deg, #ae8625 0%, #fffbc6 46%, #d2ac47 94%); }
+  47% {
+    background-image: linear-gradient(137deg, #ae8625 0%, #fffbc6 47%, #d2ac47 94%); }
+  48% {
+    background-image: linear-gradient(138deg, #ae8625 0%, #fffbc6 48%, #d2ac47 94%); }
+  49% {
+    background-image: linear-gradient(139deg, #ae8625 0%, #fffbc6 49%, #d2ac47 94%); }
+  50% {
+    background-image: linear-gradient(140deg, #ae8625 0%, #fffbc6 50%, #d2ac47 94%); }
+  51% {
+    background-image: linear-gradient(141deg, #ae8625 0%, #fffbc6 51%, #d2ac47 94%); }
+  52% {
+    background-image: linear-gradient(142deg, #ae8625 0%, #fffbc6 52%, #d2ac47 94%); }
+  53% {
+    background-image: linear-gradient(143deg, #ae8625 0%, #fffbc6 53%, #d2ac47 94%); }
+  54% {
+    background-image: linear-gradient(144deg, #ae8625 0%, #fffbc6 54%, #d2ac47 94%); }
+  55% {
+    background-image: linear-gradient(145deg, #ae8625 0%, #fffbc6 55%, #d2ac47 94%); }
+  56% {
+    background-image: linear-gradient(146deg, #ae8625 0%, #fffbc6 56%, #d2ac47 94%); }
+  57% {
+    background-image: linear-gradient(147deg, #ae8625 0%, #fffbc6 57%, #d2ac47 94%); }
+  58% {
+    background-image: linear-gradient(148deg, #ae8625 0%, #fffbc6 58%, #d2ac47 94%); }
+  59% {
+    background-image: linear-gradient(149deg, #ae8625 0%, #fffbc6 59%, #d2ac47 94%); }
+  60% {
+    background-image: linear-gradient(150deg, #ae8625 0%, #fffbc6 60%, #d2ac47 94%); }
+  61% {
+    background-image: linear-gradient(151deg, #ae8625 0%, #fffbc6 61%, #d2ac47 94%); }
+  62% {
+    background-image: linear-gradient(152deg, #ae8625 0%, #fffbc6 62%, #d2ac47 94%); }
+  63% {
+    background-image: linear-gradient(153deg, #ae8625 0%, #fffbc6 63%, #d2ac47 94%); }
+  64% {
+    background-image: linear-gradient(154deg, #ae8625 0%, #fffbc6 64%, #d2ac47 94%); }
+  65% {
+    background-image: linear-gradient(155deg, #ae8625 0%, #fffbc6 65%, #d2ac47 94%); }
+  66% {
+    background-image: linear-gradient(156deg, #ae8625 0%, #fffbc6 66%, #d2ac47 94%); }
+  67% {
+    background-image: linear-gradient(157deg, #ae8625 0%, #fffbc6 67%, #d2ac47 94%); }
+  68% {
+    background-image: linear-gradient(158deg, #ae8625 0%, #fffbc6 68%, #d2ac47 94%); }
+  69% {
+    background-image: linear-gradient(159deg, #ae8625 0%, #fffbc6 69%, #d2ac47 94%); }
+  70% {
+    background-image: linear-gradient(160deg, #ae8625 0%, #fffbc6 70%, #d2ac47 94%); }
+  71% {
+    background-image: linear-gradient(161deg, #ae8625 0%, #fffbc6 71%, #d2ac47 94%); }
+  72% {
+    background-image: linear-gradient(162deg, #ae8625 0%, #fffbc6 72%, #d2ac47 94%); }
+  73% {
+    background-image: linear-gradient(163deg, #ae8625 0%, #fffbc6 73%, #d2ac47 94%); }
+  74% {
+    background-image: linear-gradient(164deg, #ae8625 0%, #fffbc6 74%, #d2ac47 94%); }
+  75% {
+    background-image: linear-gradient(165deg, #ae8625 0%, #fffbc6 75%, #d2ac47 94%); }
+  76% {
+    background-image: linear-gradient(166deg, #ae8625 0%, #fffbc6 76%, #d2ac47 94%); }
+  77% {
+    background-image: linear-gradient(167deg, #ae8625 0%, #fffbc6 77%, #d2ac47 94%); }
+  78% {
+    background-image: linear-gradient(168deg, #ae8625 0%, #fffbc6 78%, #d2ac47 94%); }
+  79% {
+    background-image: linear-gradient(169deg, #ae8625 0%, #fffbc6 79%, #d2ac47 94%); }
+  80% {
+    background-image: linear-gradient(170deg, #ae8625 0%, #fffbc6 80%, #d2ac47 94%); }
+  81% {
+    background-image: linear-gradient(171deg, #ae8625 0%, #fffbc6 81%, #d2ac47 94%); }
+  82% {
+    background-image: linear-gradient(172deg, #ae8625 0%, #fffbc6 82%, #d2ac47 94%); }
+  83% {
+    background-image: linear-gradient(173deg, #ae8625 0%, #fffbc6 83%, #d2ac47 94%); }
+  84% {
+    background-image: linear-gradient(174deg, #ae8625 0%, #fffbc6 84%, #d2ac47 94%); }
+  85% {
+    background-image: linear-gradient(175deg, #ae8625 0%, #fffbc6 85%, #d2ac47 94%); }
+  86% {
+    background-image: linear-gradient(176deg, #ae8625 0%, #fffbc6 86%, #d2ac47 94%); }
+  87% {
+    background-image: linear-gradient(177deg, #ae8625 0%, #fffbc6 87%, #d2ac47 94%); }
+  88% {
+    background-image: linear-gradient(178deg, #ae8625 0%, #fffbc6 88%, #d2ac47 94%); }
+  89% {
+    background-image: linear-gradient(179deg, #ae8625 0%, #fffbc6 89%, #d2ac47 94%); }
+  90% {
+    background-image: linear-gradient(180deg, #ae8625 0%, #fffbc6 90%, #d2ac47 94%); }
+  91% {
+    background-image: linear-gradient(181deg, #ae8625 0%, #fffbc6 91%, #d2ac47 94%); }
+  92% {
+    background-image: linear-gradient(182deg, #ae8625 0%, #fffbc6 92%, #d2ac47 94%); }
+  93% {
+    background-image: linear-gradient(183deg, #ae8625 0%, #fffbc6 93%, #d2ac47 94%); }
+  94% {
+    background-image: linear-gradient(184deg, #ae8625 0%, #fffbc6 94%, #d2ac47 94%); }
+  95% {
+    background-image: linear-gradient(185deg, #ae8625 0%, #fffbc6 95%, #d2ac47 94%); }
+  96% {
+    background-image: linear-gradient(186deg, #ae8625 0%, #fffbc6 96%, #d2ac47 94%); }
+  97% {
+    background-image: linear-gradient(187deg, #ae8625 0%, #fffbc6 97%, #d2ac47 94%); }
+  98% {
+    background-image: linear-gradient(188deg, #ae8625 0%, #fffbc6 98%, #d2ac47 94%); }
+  99% {
+    background-image: linear-gradient(189deg, #ae8625 0%, #fffbc6 99%, #d2ac47 94%); }
+  100% {
+    background-image: linear-gradient(190deg, #ae8625 0%, #fffbc6 100%, #d2ac47 94%); }
+  101% {
+    background-image: linear-gradient(191deg, #ae8625 0%, #fffbc6 101%, #d2ac47 94%); }
+  102% {
+    background-image: linear-gradient(192deg, #ae8625 0%, #fffbc6 102%, #d2ac47 94%); }
+  103% {
+    background-image: linear-gradient(193deg, #ae8625 0%, #fffbc6 103%, #d2ac47 94%); }
+  104% {
+    background-image: linear-gradient(194deg, #ae8625 0%, #fffbc6 104%, #d2ac47 94%); }
+  105% {
+    background-image: linear-gradient(195deg, #ae8625 0%, #fffbc6 105%, #d2ac47 94%); }
+  106% {
+    background-image: linear-gradient(196deg, #ae8625 0%, #fffbc6 106%, #d2ac47 94%); }
+  107% {
+    background-image: linear-gradient(197deg, #ae8625 0%, #fffbc6 107%, #d2ac47 94%); }
+  108% {
+    background-image: linear-gradient(198deg, #ae8625 0%, #fffbc6 108%, #d2ac47 94%); }
+  109% {
+    background-image: linear-gradient(199deg, #ae8625 0%, #fffbc6 109%, #d2ac47 94%); }
+  110% {
+    background-image: linear-gradient(200deg, #ae8625 0%, #fffbc6 110%, #d2ac47 94%); }
+  111% {
+    background-image: linear-gradient(201deg, #ae8625 0%, #fffbc6 111%, #d2ac47 94%); }
+  112% {
+    background-image: linear-gradient(202deg, #ae8625 0%, #fffbc6 112%, #d2ac47 94%); }
+  113% {
+    background-image: linear-gradient(203deg, #ae8625 0%, #fffbc6 113%, #d2ac47 94%); }
+  114% {
+    background-image: linear-gradient(204deg, #ae8625 0%, #fffbc6 114%, #d2ac47 94%); }
+  115% {
+    background-image: linear-gradient(205deg, #ae8625 0%, #fffbc6 115%, #d2ac47 94%); }
+  116% {
+    background-image: linear-gradient(206deg, #ae8625 0%, #fffbc6 116%, #d2ac47 94%); }
+  117% {
+    background-image: linear-gradient(207deg, #ae8625 0%, #fffbc6 117%, #d2ac47 94%); }
+  118% {
+    background-image: linear-gradient(208deg, #ae8625 0%, #fffbc6 118%, #d2ac47 94%); }
+  119% {
+    background-image: linear-gradient(209deg, #ae8625 0%, #fffbc6 119%, #d2ac47 94%); }
+  120% {
+    background-image: linear-gradient(210deg, #ae8625 0%, #fffbc6 120%, #d2ac47 94%); }
+  121% {
+    background-image: linear-gradient(211deg, #ae8625 0%, #fffbc6 121%, #d2ac47 94%); }
+  122% {
+    background-image: linear-gradient(212deg, #ae8625 0%, #fffbc6 122%, #d2ac47 94%); }
+  123% {
+    background-image: linear-gradient(213deg, #ae8625 0%, #fffbc6 123%, #d2ac47 94%); }
+  124% {
+    background-image: linear-gradient(214deg, #ae8625 0%, #fffbc6 124%, #d2ac47 94%); }
+  125% {
+    background-image: linear-gradient(215deg, #ae8625 0%, #fffbc6 125%, #d2ac47 94%); }
+  126% {
+    background-image: linear-gradient(216deg, #ae8625 0%, #fffbc6 126%, #d2ac47 94%); }
+  127% {
+    background-image: linear-gradient(217deg, #ae8625 0%, #fffbc6 127%, #d2ac47 94%); }
+  128% {
+    background-image: linear-gradient(218deg, #ae8625 0%, #fffbc6 128%, #d2ac47 94%); }
+  129% {
+    background-image: linear-gradient(219deg, #ae8625 0%, #fffbc6 129%, #d2ac47 94%); }
+  130% {
+    background-image: linear-gradient(220deg, #ae8625 0%, #fffbc6 130%, #d2ac47 94%); }
+  131% {
+    background-image: linear-gradient(221deg, #ae8625 0%, #fffbc6 131%, #d2ac47 94%); }
+  132% {
+    background-image: linear-gradient(222deg, #ae8625 0%, #fffbc6 132%, #d2ac47 94%); }
+  133% {
+    background-image: linear-gradient(223deg, #ae8625 0%, #fffbc6 133%, #d2ac47 94%); }
+  134% {
+    background-image: linear-gradient(224deg, #ae8625 0%, #fffbc6 134%, #d2ac47 94%); }
+  135% {
+    background-image: linear-gradient(225deg, #ae8625 0%, #fffbc6 135%, #d2ac47 94%); }
+  136% {
+    background-image: linear-gradient(226deg, #ae8625 0%, #fffbc6 136%, #d2ac47 94%); }
+  137% {
+    background-image: linear-gradient(227deg, #ae8625 0%, #fffbc6 137%, #d2ac47 94%); }
+  138% {
+    background-image: linear-gradient(228deg, #ae8625 0%, #fffbc6 138%, #d2ac47 94%); }
+  139% {
+    background-image: linear-gradient(229deg, #ae8625 0%, #fffbc6 139%, #d2ac47 94%); }
+  140% {
+    background-image: linear-gradient(230deg, #ae8625 0%, #fffbc6 140%, #d2ac47 94%); }
+  141% {
+    background-image: linear-gradient(231deg, #ae8625 0%, #fffbc6 141%, #d2ac47 94%); }
+  142% {
+    background-image: linear-gradient(232deg, #ae8625 0%, #fffbc6 142%, #d2ac47 94%); }
+  143% {
+    background-image: linear-gradient(233deg, #ae8625 0%, #fffbc6 143%, #d2ac47 94%); }
+  144% {
+    background-image: linear-gradient(234deg, #ae8625 0%, #fffbc6 144%, #d2ac47 94%); }
+  145% {
+    background-image: linear-gradient(235deg, #ae8625 0%, #fffbc6 145%, #d2ac47 94%); }
+  146% {
+    background-image: linear-gradient(236deg, #ae8625 0%, #fffbc6 146%, #d2ac47 94%); }
+  147% {
+    background-image: linear-gradient(237deg, #ae8625 0%, #fffbc6 147%, #d2ac47 94%); }
+  148% {
+    background-image: linear-gradient(238deg, #ae8625 0%, #fffbc6 148%, #d2ac47 94%); }
+  149% {
+    background-image: linear-gradient(239deg, #ae8625 0%, #fffbc6 149%, #d2ac47 94%); }
+  150% {
+    background-image: linear-gradient(240deg, #ae8625 0%, #fffbc6 150%, #d2ac47 94%); }
+  151% {
+    background-image: linear-gradient(241deg, #ae8625 0%, #fffbc6 151%, #d2ac47 94%); }
+  152% {
+    background-image: linear-gradient(242deg, #ae8625 0%, #fffbc6 152%, #d2ac47 94%); }
+  153% {
+    background-image: linear-gradient(243deg, #ae8625 0%, #fffbc6 153%, #d2ac47 94%); }
+  154% {
+    background-image: linear-gradient(244deg, #ae8625 0%, #fffbc6 154%, #d2ac47 94%); }
+  155% {
+    background-image: linear-gradient(245deg, #ae8625 0%, #fffbc6 155%, #d2ac47 94%); }
+  156% {
+    background-image: linear-gradient(246deg, #ae8625 0%, #fffbc6 156%, #d2ac47 94%); }
+  157% {
+    background-image: linear-gradient(247deg, #ae8625 0%, #fffbc6 157%, #d2ac47 94%); }
+  158% {
+    background-image: linear-gradient(248deg, #ae8625 0%, #fffbc6 158%, #d2ac47 94%); }
+  159% {
+    background-image: linear-gradient(249deg, #ae8625 0%, #fffbc6 159%, #d2ac47 94%); }
+  160% {
+    background-image: linear-gradient(250deg, #ae8625 0%, #fffbc6 160%, #d2ac47 94%); }
+  161% {
+    background-image: linear-gradient(251deg, #ae8625 0%, #fffbc6 161%, #d2ac47 94%); }
+  162% {
+    background-image: linear-gradient(252deg, #ae8625 0%, #fffbc6 162%, #d2ac47 94%); }
+  163% {
+    background-image: linear-gradient(253deg, #ae8625 0%, #fffbc6 163%, #d2ac47 94%); }
+  164% {
+    background-image: linear-gradient(254deg, #ae8625 0%, #fffbc6 164%, #d2ac47 94%); }
+  165% {
+    background-image: linear-gradient(255deg, #ae8625 0%, #fffbc6 165%, #d2ac47 94%); }
+  166% {
+    background-image: linear-gradient(256deg, #ae8625 0%, #fffbc6 166%, #d2ac47 94%); }
+  167% {
+    background-image: linear-gradient(257deg, #ae8625 0%, #fffbc6 167%, #d2ac47 94%); }
+  168% {
+    background-image: linear-gradient(258deg, #ae8625 0%, #fffbc6 168%, #d2ac47 94%); }
+  169% {
+    background-image: linear-gradient(259deg, #ae8625 0%, #fffbc6 169%, #d2ac47 94%); }
+  170% {
+    background-image: linear-gradient(260deg, #ae8625 0%, #fffbc6 170%, #d2ac47 94%); }
+  171% {
+    background-image: linear-gradient(261deg, #ae8625 0%, #fffbc6 171%, #d2ac47 94%); }
+  172% {
+    background-image: linear-gradient(262deg, #ae8625 0%, #fffbc6 172%, #d2ac47 94%); }
+  173% {
+    background-image: linear-gradient(263deg, #ae8625 0%, #fffbc6 173%, #d2ac47 94%); }
+  174% {
+    background-image: linear-gradient(264deg, #ae8625 0%, #fffbc6 174%, #d2ac47 94%); }
+  175% {
+    background-image: linear-gradient(265deg, #ae8625 0%, #fffbc6 175%, #d2ac47 94%); }
+  176% {
+    background-image: linear-gradient(266deg, #ae8625 0%, #fffbc6 176%, #d2ac47 94%); }
+  177% {
+    background-image: linear-gradient(267deg, #ae8625 0%, #fffbc6 177%, #d2ac47 94%); }
+  178% {
+    background-image: linear-gradient(268deg, #ae8625 0%, #fffbc6 178%, #d2ac47 94%); }
+  179% {
+    background-image: linear-gradient(269deg, #ae8625 0%, #fffbc6 179%, #d2ac47 94%); }
+  180% {
+    background-image: linear-gradient(270deg, #ae8625 0%, #fffbc6 180%, #d2ac47 94%); }
+  181% {
+    background-image: linear-gradient(271deg, #ae8625 0%, #fffbc6 181%, #d2ac47 94%); }
+  182% {
+    background-image: linear-gradient(272deg, #ae8625 0%, #fffbc6 182%, #d2ac47 94%); } }
+
+/* Aplicacion de mapa(2) */
 .logo {
   padding-top: 1em;
   padding-right: 5em; }
   .logo .brand {
-    font-family: 'Ballet', cursive;
+    color: black;
+    font-family: "Ballet", cursive;
     font-size: 3em;
-    transition: font-size 2s; }
+    transition: font-size 1s; }
   .logo .brand-text {
-    color: white;
+    color: black;
     font-size: 0.75em;
     text-align: center;
     position: relative;
     top: -2em;
     right: -2.9em;
-    transition: font-size 2s; }
+    transition: font-size 1s; }
   .logo:hover .brand {
-    font-size: calc(3em *2); }
+    font-size: calc(3em *1.5); }
   .logo:hover .brand-text {
-    font-size: calc(3em *0.50); }
+    font-size: calc(3em *0.375); }
+
+/* Aplicacion de Mixins */
+.cu-cont-carousel {
+  display: flex;
+  justify-content: center;
+  background-color: black; }
+
+.custom-carousel {
+  max-width: 600px; }
 
 .bi {
   vertical-align: -.125em;

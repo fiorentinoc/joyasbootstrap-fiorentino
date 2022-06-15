@@ -1,0 +1,20 @@
+/* Aplicando Mapas(1) */
+$coloresEfecto: (
+    colIz:      rgba(174,134,37,1),
+    colReflejo: rgba(255,251,198,1),
+    colDer:     rgba(210,172,71,1)
+);
+div.container-lg {
+    background-image: linear-gradient(90deg, map-get($coloresEfecto, colIz) 0%, rmap-get($coloresEfecto, colReflejo) 0%, map-get($coloresEfecto, colDer) 94%);
+    animation-name: tino;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.97,.17,.03,.82);
+    animation-duration: 8s;
+    animation-delay: 1s;
+}
+@keyframes tino {
+    $i: 0 !global;
+    @for $i from 1 to 183 {
+        #{$i}%{background-image: linear-gradient($i+90deg, map-get($coloresEfecto, colIz) 0%, map-get($coloresEfecto, colReflejo) $i*1%, map-get($coloresEfecto, colDer) 94%);}
+    }
+}

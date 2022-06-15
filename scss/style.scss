@@ -1,8 +1,27 @@
+$bd-color: rgb(33, 37, 41);
+
 body {
-    background-color: rgb(33, 37, 41);
+    background-color: $bd-color
 }
 
+/* Importacion de módulos */
+@import "efecto-header";
 @import "logo";
+
+/* Aplicacion de Mixins */
+@mixin cu-cont($display, $jus-cont) {
+    display: $display;
+    justify-content: $jus-cont;
+}
+
+.cu-cont-carousel {
+    @include cu-cont(flex, center)
+    background-color: black;
+}
+
+.custom-carousel {
+    max-width: 600px;
+}
 
 .bi {
     vertical-align: -.125em;

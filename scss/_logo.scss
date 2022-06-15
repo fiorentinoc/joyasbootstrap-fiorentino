@@ -1,30 +1,42 @@
+$font: 'Ballet', cursive;
+
+/* Aplicacion de mapa(2) */
+$estiLogo:(
+    fontfamily1:  $font,
+    fontfamily2:  initial,
+    fontsize1:   3em,
+    fontsize2:   0.75em,
+    color1:      black,
+    color2:      white,
+    timeAni:     1s
+);
 .logo {
-    $fontsize: 3em;
+    $fontsize: map-get($estiLogo, fontsize1);
     padding-top: 1em;
     padding-right: 5em;
 
 
     .brand {
-        
-        font-family: 'Ballet', cursive;
+        color: map-get($estiLogo, color1);
+        font-family: map-get($estiLogo, fontfamily1);
         font-size: $fontsize;
-        transition: font-size 2s;
+        transition: font-size map-get($estiLogo, timeAni);
     }
     .brand-text {
-        color: white;
-        font-size: 0.75em;
+        color: map-get($estiLogo, color1);
+        font-size:map-get($estiLogo, fontsize2);
         text-align: center;
         position: relative;
         top: -2em;
         right: -2.9em;
-        transition: font-size 2s
+        transition: font-size map-get($estiLogo, timeAni)
     }
     &:hover{
         .brand{
-            font-size: calc(#{$fontsize} *2);
+            font-size: calc(#{$fontsize} *1.5);
         }
         .brand-text{
-            font-size: calc(#{$fontsize} *0.50);
+            font-size: calc(#{$fontsize} *0.375);
         }
     }
 }
