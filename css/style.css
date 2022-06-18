@@ -409,6 +409,14 @@ div.container-lg {
 .custom-carousel {
   max-width: 600px; }
 
+.cu-hero-image {
+  background-image: url(../img/store2.jpg);
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative; }
+
 .bi {
   vertical-align: -.125em;
   fill: currentColor; }

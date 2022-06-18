@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ballet&family=Saira&family=Dosis&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/store.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
   <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
@@ -42,7 +42,7 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
+                <div class="navbar-nav ms-auto">
                     <a class="nav-link" href="index.html">Inicio</a>
                     <a class="nav-link" href="about.html">Historia</a>
                     <a class="nav-link active" aria-current="page" href="#">Store</a>
@@ -55,16 +55,22 @@
           </nav>
     </header>
     <main>
-        <section class="py-5 text-center container">
-            <div class="row py-lg-5">
+        <!-- <section class="py-5 text-center container cu-cont-header-store">
+            <div class="row py-lg-5 ">
               <div class="col-lg-6 col-md-8 mx-auto">
                 <h1 class="fw-light">Fiorentino Store</h1>
                 <p class="lead text-muted">Encuentra aqui la joya que te identifique. Recorre nuestras colecciones únicas y descubre un mundo de lujo y sofisticación.</p>
                 <p>
                  <!--  <a href="#" class="btn btn-primary my-2">Main call to action</a>
-                  <a href="#" class="btn btn-secondary my-2">Secondary action</a> -->
+                  <a href="#" class="btn btn-secondary my-2">Secondary action</a> 
                 </p>
               </div>
+            </div>
+          </section> -->
+          <section class="cu-hero-image">
+            <div class="hero-text text-white">
+              <h1>Fiorentino Store</h1>
+              <h4>Encuentra aqui la joya que te identifique. Recorre nuestras colecciones únicas y descubre un mundo de lujo y sofisticación.</h4>
             </div>
           </section>
         
@@ -74,7 +80,8 @@
               <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                 <div class="col">
                   <div class="card shadow-sm">
-                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Anillo Imperial</text></svg>
+                    <img src="./img/anillo_imperial.jpg" class="card-img-top" alt="anillo imperial">
+                    <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Anillo Imperial</text></svg> -->
         
                     <div class="card-body">
                       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -90,8 +97,7 @@
                 </div>
                 <div class="col">
                   <div class="card shadow-sm">
-                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Anillo Rococó</text></svg>
-        
+                    <img src="./img/anillo_rococo.jpg" class="card-img-top" alt="anillo rococo">
                     <div class="card-body">
                       <p class="card-text">Una pieza que supera la prueba del tiempo, este glamoroso anillo de halo tiene en el centro una impresionante circonia cúbica facetada que refleja la luz.</p>
                       <div class="d-flex justify-content-between align-items-center">
@@ -106,8 +112,7 @@
                 </div>
                 <div class="col">
                   <div class="card shadow-sm">
-                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Anillo Cuore</text></svg>
-        
+                    <img src="./img/anillo_cuore.jpg" class="card-img-top" alt="anillo anillo_cuore">
                     <div class="card-body">
                       <p class="card-text">Expresa el verdadero deseo de tu corazón con este brillante anillo de eternidad. Acabado a mano en Recubrimiento en Oro Rosa de 14k</p>
                       <div class="d-flex justify-content-between align-items-center">
@@ -123,10 +128,9 @@
         
                 <div class="col">
                   <div class="card shadow-sm">
-                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Gargantilla Celestial</text></svg>
-        
+                    <img src="./img/gar_star.jpg" class="card-img-top" alt="gargantilla star">
                     <div class="card-body">
-                      <p class="card-text">Da un toque de brillo a tus outfits con el Anillo Banda de Estrellas Asimétricas. Inspirado en la belleza celestial.</p>
+                      <p class="card-text">Da un toque de brillo a tus outfits con la gargantilla de Estrellas Asimétricas. Inspirado en la belleza celestial.</p>
                       <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
                             <button type="button" class="btn btn-sm btn-outline-secondary">Comprar</button>
@@ -139,10 +143,9 @@
                 </div>
                 <div class="col">
                   <div class="card shadow-sm">
-                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Gargantilla Natura</text></svg>
-        
+                    <img src="./img/gar_nature.jpg" class="card-img-top" alt="gargantilla nature">
                     <div class="card-body">
-                      <p class="card-text">Usa un deslumbrante tributo a la naturaleza con el Anillo Hojas relucientes. Este anillo acabado a mano en plata esterlina tiene dos hojas colocadas una frente a la otra.</p>
+                      <p class="card-text">Usa un deslumbrante tributo a la naturaleza con la gargantilla Hojas relucientes. Este anillo acabado a mano en plata esterlina tiene dos hojas colocadas una frente a la otra.</p>
                       <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
                             <button type="button" class="btn btn-sm btn-outline-secondary">Comprar</button>
@@ -155,10 +158,9 @@
                 </div>
                 <div class="col">
                   <div class="card shadow-sm">
-                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Aros Europe</text></svg>
-        
+                    <img src="./img/aros1.jpg" class="card-img-top" alt="aros">
                     <div class="card-body">
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text">Muestre amor a sus oídos con estos aretes de corazón brillantes. Estos aretes chapados en oro rosado de 14k, terminados a mano</p>
                       <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
                             <button type="button" class="btn btn-sm btn-outline-secondary">Comprar</button>
@@ -172,10 +174,9 @@
         
                 <div class="col">
                   <div class="card shadow-sm">
-                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Aros Montreal</text></svg>
-        
+                    <img src="./img/aros2.jpg" class="card-img-top" alt="aros">
                     <div class="card-body">
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text">Enmarque su rostro con estos aretes de aro Pavé Heart en tonos cálidos. Estos argollas enchapadas en oro de 14k están terminadas a mano y adornadas con un brillante pavé de zirconia cúbica transparente</p>
                       <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
                             <button type="button" class="btn btn-sm btn-outline-secondary">Comprar</button>
@@ -188,10 +189,9 @@
                 </div>
                 <div class="col">
                   <div class="card shadow-sm">
-                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Dije Kingdom</text></svg>
-        
+                    <img src="./img/dije_JB.jpg" class="card-img-top" alt="dije1">
                     <div class="card-body">
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text">Deje que su espíritu se eleve con este dije de globo aerostático de feliz cumpleaños. Acabado a mano en plata esterlina, el globo en forma de corazón está delicadamente cubierto con esmalte transparente púrpura, rosa y azul</p>
                       <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
                             <button type="button" class="btn btn-sm btn-outline-secondary">Comprar</button>
@@ -204,10 +204,9 @@
                 </div>
                 <div class="col">
                   <div class="card shadow-sm">
-                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Dije Aura</text></svg>
-        
+                    <img src="./img/dije2.jpg" class="card-img-top" alt="dije2">
                     <div class="card-body">
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text">El dije colgante de tortuga marina de cristal de Murano está inspirado en las pacíficas criaturas del mar azul profundo.</p>
                       <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
                             <button type="button" class="btn btn-sm btn-outline-secondary">Comprar</button>
